@@ -1,0 +1,163 @@
+Process rank: 6
+Computed in 0.2072 seconds
+Process rank: 8
+Computed in 0.2072 seconds
+Process rank: 12
+Computed in 0.2073 seconds
+Process rank: 20
+Computed in 0.2072 seconds
+Process rank: 26
+Computed in 0.2073 seconds
+Process rank: 28
+Computed in 0.2071 seconds
+Process rank: 30
+Computed in 0.2071 seconds
+Process rank: 32
+Computed in 0.2072 seconds
+Process rank: 0
+pi is approximately 3.1415926555898102, Error is 0.0000000020000170
+Computed in 0.02534 seconds
+Computed in 0.2073 seconds
+Process rank: 1
+Computed in 0.2072 seconds
+Process rank: 2
+Computed in 0.2074 seconds
+Process rank: 3
+Computed in 0.2072 seconds
+Process rank: 4
+Computed in 0.2073 seconds
+Process rank: 5
+Computed in 0.2072 seconds
+Process rank: 7
+Computed in 0.2073 seconds
+Process rank: 9
+Computed in 0.2073 seconds
+Process rank: 10
+Computed in 0.2072 seconds
+Process rank: 11
+Computed in 0.2072 seconds
+Process rank: 13
+Computed in 0.2072 seconds
+Process rank: 14
+Computed in 0.2072 seconds
+Process rank: 15
+Computed in 0.2072 seconds
+Process rank: 16
+Computed in 0.2072 seconds
+Process rank: 17
+Computed in 0.2072 seconds
+Process rank: 18
+Computed in 0.2072 seconds
+Process rank: 19
+Computed in 0.2072 seconds
+Process rank: 21
+Computed in 0.2072 seconds
+Process rank: 22
+Computed in 0.2072 seconds
+Process rank: 23
+Computed in 0.2072 seconds
+Process rank: 24
+Computed in 0.2074 seconds
+Process rank: 25
+Computed in 0.2073 seconds
+Process rank: 27
+Computed in 0.2072 seconds
+Process rank: 29
+Computed in 0.2072 seconds
+Process rank: 31
+Computed in 0.2073 seconds
+Process rank: 33
+Computed in 0.2072 seconds
+Process rank: 34
+Computed in 0.2072 seconds
+Process rank: 35
+Computed in 0.2072 seconds
+Process rank: 49
+Computed in 0.2136 seconds
+Process rank: 51
+Computed in 0.2136 seconds
+Process rank: 53
+Computed in 0.2137 seconds
+Process rank: 54
+Computed in 0.2136 seconds
+Process rank: 55
+Computed in 0.2137 seconds
+Process rank: 59
+Computed in 0.2136 seconds
+Process rank: 65
+Computed in 0.2137 seconds
+Process rank: 69
+Computed in 0.2136 seconds
+Process rank: 70
+Computed in 0.2136 seconds
+Process rank: 71
+Computed in 0.2136 seconds
+Process rank: 36
+Computed in 0.2136 seconds
+Process rank: 37
+Computed in 0.2137 seconds
+Process rank: 38
+Computed in 0.2136 seconds
+Process rank: 39
+Computed in 0.2137 seconds
+Process rank: 40
+Computed in 0.2137 seconds
+Process rank: 41
+Computed in 0.2137 seconds
+Process rank: 42
+Computed in 0.2137 seconds
+Process rank: 43
+Computed in 0.2137 seconds
+Process rank: 44
+Computed in 0.2137 seconds
+Process rank: 45
+Computed in 0.2137 seconds
+Process rank: 46
+Computed in 0.2137 seconds
+Process rank: 47
+Computed in 0.2136 seconds
+Process rank: 48
+Computed in 0.2137 seconds
+Process rank: 50
+Computed in 0.2137 seconds
+Process rank: 52
+Computed in 0.2137 seconds
+Process rank: 56
+Computed in 0.2136 seconds
+Process rank: 57
+Computed in 0.2137 seconds
+Process rank: 58
+Computed in 0.2137 seconds
+Process rank: 60
+Computed in 0.2137 seconds
+Process rank: 61
+Computed in 0.2137 seconds
+Process rank: 62
+Computed in 0.2137 seconds
+Process rank: 63
+Computed in 0.2138 seconds
+Process rank: 64
+Computed in 0.2137 seconds
+Process rank: 66
+Computed in 0.2137 seconds
+Process rank: 67
+Computed in 0.2137 seconds
+Process rank: 68
+Computed in 0.2137 seconds
+
+
+Batch Job Summary Report (version 21.01.1) for Job "cpi_mpi_jr" (37112586) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-03-11T14:51:42 2022-03-11T14:51:42 2022-03-11T14:51:43 2022-03-11T14:51:55   00:00:12   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+      jramzi         uzh8        debug        2      1.788 kJ
+
