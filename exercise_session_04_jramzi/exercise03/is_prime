@@ -1,15 +1,19 @@
 num=$1
 
-if $num -eq 1
-then echo "$num is composit"
-elif $num -eq 2
-then echo "$num is prime"
-else for i in {1..$num/2}
+re='^[0-9]+$'
+if ! [[ $num =~ $re ]] ; then
+   echo "ERROR: The given input is not a number: $num" >&2; exit 1
+fi
+
+for((i=2; i<=($num/2); i++))
 do
-if (expr $num % $i) -eg 0
-then echo "$num is composit"
-else echo "$num is prime"
-fi
+  ans=$(( $num%i ))
+  if [ $ans -eq 0 ]
+  then
+    echo "$num is composit"
+    exit 0
+  fi
 done
-fi
+echo "$num is prime"
+
 

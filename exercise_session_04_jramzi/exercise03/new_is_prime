@@ -1,0 +1,14 @@
+num=$1
+
+answer=$($(echo factor $num) | wc -w)
+
+if [ $answer -eq 2 ]
+then
+echo "$num is prime"
+elif [ $answer -gt 2 ]
+then
+echo "$num is composit"
+else
+echo "ERROR: The given input is not a number: $num"
+fi
+

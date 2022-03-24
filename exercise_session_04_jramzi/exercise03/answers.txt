@@ -1,0 +1,33 @@
+when using the is_prime script (whîth a for loop):
+
+	4230283 is prime
+
+	real    0m19.023s
+	user    0m18.086s
+	sys     0m0.004s
+
+
+
+	457286217100 is composit
+
+	real    0m0.006s
+	user    0m0.000s
+	sys     0m0.005s
+
+
+
+when using the new_is_prime script (with factor command):
+
+	4230283 is prime
+
+	real    0m0.010s
+	user    0m0.010s
+	sys     0m0.003s
+
+
+
+	457286217100 is composit
+
+	real    0m0.013s
+	user    0m0.009s
+	sys     0m0.006s
