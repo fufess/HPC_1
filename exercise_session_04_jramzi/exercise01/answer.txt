@@ -1,0 +1,4 @@
+The permissions of /users/jbucko are:
+	drwx------+ 58 jbucko uzh27 8192 Mar 17 19:21 jbucko
+
+No I can't access /users/jbucko/hpc_exam_solution.txt. I don't even have permission to open jbucko directory. No I can't write it.

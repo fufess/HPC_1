@@ -1,0 +1,10 @@
+file=$1
+
+if [ $(ls $file | wc -l) -gt 0 ]
+then cat $file | while read line 
+do
+   echo $line >>$2
+   echo "" >>$2
+done
+else "File does not exist/is empty!"
+fi
