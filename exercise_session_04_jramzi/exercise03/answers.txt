@@ -1,4 +1,4 @@
-when using the is_prime script (whîth a for loop):
+when using the is_prime script (with a for loop):
 
 	4230283 is prime
 
