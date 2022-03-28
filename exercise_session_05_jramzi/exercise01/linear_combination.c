@@ -7,6 +7,8 @@ struct complex_vector {
         int imgnry[N*sizeof(int)]; // = malloc(N * sizeof(int));
 };
 
+int linear_combination(struct complex_vector x, struct complex_vector y, int a, struct complex_vector z);
+
 int main()
 {
         struct complex_vector x;
