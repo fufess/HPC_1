@@ -1,0 +1,19 @@
+Answers to exercise 2:
+
+1) Set integer before memory block to 42.
+
+2) p --> address of first value of array
+  *p --> pointer to first value of array
+  &p --> pointer to address of first value of array
+
+3) *(p+1) --> pointer to second value of array (== p[1])
+     *p+1 --> 
+
+4)
+
+5) M is a pointer to an array i.e. pointer to a pointer
+
+6) 
+
+7)
+

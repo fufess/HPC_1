@@ -44,13 +44,13 @@ int linear_combination(struct complex_vector x, struct complex_vector y, int a, 
                 z.real[i] = x.real[i] + a * y.real[i];
         };
 
-		for (int i=0; i<=N; i++){
-                z.imgnry[i] = x.imgnry[i] + a * y.imgnry[i];
+	for (int i=0; i<=N; i++){
+        	z.imgnry[i] = x.imgnry[i] + a * y.imgnry[i];
         };
         printf("\n");
 
         for (int k=0; k<=N; k++){
-            printf("z.real: %d, z.imgnry: %d\n", z.real[k], z.imgnry[k]);
+        	printf("z.real: %d, z.imgnry: %d\n", z.real[k], z.imgnry[k]);
         }
         return 0;
 };
