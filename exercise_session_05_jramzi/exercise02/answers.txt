@@ -7,7 +7,7 @@ Answers to exercise 2:
   &p --> pointer to address of first value of array
 
 3) *(p+1) --> pointer to second value of array (== p[1])
-     *p+1 --> 
+     *p+1 --> adds "sizeof(typeof(*p))" to *p
 
 4)
 
