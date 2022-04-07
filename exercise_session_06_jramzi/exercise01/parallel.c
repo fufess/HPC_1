@@ -53,11 +53,10 @@ int main(int argc, char *argv[]){
 
     #pragma omp parallel for
     for (int i=0;i<num_size;i++){
-	    
+	    #pragma omp atomic
 	    if (numbers[i] > maxval){
 		    maxval = numbers[i];
 	    };
-	    #pragma omp atomic
     };
     printf("max number in file: %d\n",maxval);
 
@@ -66,10 +65,11 @@ int main(int argc, char *argv[]){
 
     #pragma omp parallel for
     for (int i=0;i<num_size;i++){
-	    #pragma omp atomic
+	    
 	    if (numbers[i] == 0){ 
 		    num_n0++;
 	    };
+	    #pragma omp atomic
     };
     printf("number of 0s in file: %d\n",num_n0);
     printf("true number of 0s in file: %d\n",true_n0);
