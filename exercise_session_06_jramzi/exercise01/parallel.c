@@ -53,7 +53,10 @@ int main(int argc, char *argv[]){
 
     #pragma omp parallel for
     for (int i=0;i<num_size;i++){
+<<<<<<< HEAD
 	    #pragma omp atomic
+=======
+>>>>>>> 4c33816720ada3d7c2a4fdb361363ef8d25abb39
 	    if (numbers[i] > maxval){
 		    maxval = numbers[i];
 	    };
