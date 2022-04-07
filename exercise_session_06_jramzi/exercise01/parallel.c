@@ -51,9 +51,9 @@ int main(int argc, char *argv[]){
     // first loop
     int maxval = 0;
 
-    #pragma omp parallel for //num_threads(9)
+    #pragma omp parallel for
     for (int i=0;i<num_size;i++){
-	    //#pragma omp atomic
+	    #pragma omp atomic
 	    if (numbers[i] > maxval){
 		    maxval = numbers[i];
 	    };
@@ -63,9 +63,9 @@ int main(int argc, char *argv[]){
     // second loop
     int num_n0 = 0;
 
-    #pragma omp parallel for //num_threads(9)
+    #pragma omp parallel for
     for (int i=0;i<num_size;i++){
-	    //#pragma omp atomic
+	    #pragma omp atomic
 	    if (numbers[i] == 0){ 
 		    num_n0++;
 	    };
