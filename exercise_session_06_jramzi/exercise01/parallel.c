@@ -53,10 +53,11 @@ int main(int argc, char *argv[]){
 
     #pragma omp parallel for
     for (int i=0;i<num_size;i++){
-	    #pragma omp atomic
+	    
 	    if (numbers[i] > maxval){
 		    maxval = numbers[i];
 	    };
+	    #pragma omp atomic
     };
     printf("max number in file: %d\n",maxval);
 
