@@ -52,6 +52,7 @@ int main(int argc, char *argv[]){
 	read_file("num.txt",numbers,&num_size);
 	printf("Size of integer array/file: %d\n",num_size);
 
+    
     // first loop
     int maxval = 0;
     for (int i=0;i<num_size;i++) if (numbers[i] > maxval) maxval = numbers[i];
