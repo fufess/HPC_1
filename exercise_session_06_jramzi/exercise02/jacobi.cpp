@@ -15,7 +15,7 @@
 double norm_diff(params p, double** mat1, double** mat2){
     double sum = 0.0;
 
-    #pragma omp parallel for
+    #pragma omp parallel for reduction(+:sum)
     for (int i=0; i<p.nx; i++){
 	#pragma omp parallel for reduction(+:sum)
     	for (int j=0; j<p.ny; j++){
