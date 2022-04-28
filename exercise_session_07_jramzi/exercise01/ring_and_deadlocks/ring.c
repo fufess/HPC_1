@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 	 	right_rank = 0;
 	 }
 	 if (my_rank == 0){
-		 left_rank == size;
+		 left_rank = size;
 	 }
          MPI_Send(&send_rank, 1, MPI_INT, right_rank, 100, MPI_COMM_WORLD);
 	 MPI_Recv(&recv_rank, 1, MPI_INT, left_rank, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
