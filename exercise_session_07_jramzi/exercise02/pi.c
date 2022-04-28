@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     MPI_Reduce(&local_sum, &global_sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
     if (my_rank==0){
         printf("pi=%.20g\n", global_sum);
-    }
+    } 
     // Finalize the MPI environment.
     MPI_Finalize();
 }
