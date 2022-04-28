@@ -2,16 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-double partial_inv_factorial(int n_new, int n_old){
-    // Force factorial(0)=factorial(1)=1
-    if (n_new<=1) return 1;
-
-    double ret = 1.0;
-    for (int k=n_old+1; k<=n_new; k++)
-        if (k>0) ret /= k;
-    return ret;
-}
-
 int main(int argc, char** argv) {
     int N = 1000000000;
     // Initialize the MPI environment
