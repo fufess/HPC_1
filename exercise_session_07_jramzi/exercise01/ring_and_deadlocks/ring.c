@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     //     update the send buffer
     //     update the local sum
     
-    for (int i = 0; i <= size; i++){
+    for (int i = 0; i < size; i++){
 	/*
 	if (i == 0){
 		left_rank = size;
@@ -51,8 +51,8 @@ int main(int argc, char** argv) {
         	my_sum += recv_rank;
 	}
 	*/
-	 MPI_Recv(&recv_rank, 1, MPI_INT, left_rank, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
          MPI_Send(&send_rank, 1, MPI_INT, right_rank, 100, MPI_COMM_WORLD);
+	 MPI_Recv(&recv_rank, 1, MPI_INT, left_rank, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 	 send_rank = recv_rank;
          my_sum += recv_rank;
     }
