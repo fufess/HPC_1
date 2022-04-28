@@ -16,8 +16,8 @@ int main(int argc, char** argv) {
     int recv_rank = 0;        // Receive buffer
 
     // Compute the ranks of left/right neighbours 
-    int left_rank = (my_rank + size - 1) % size;
-    int right_rank = (my_rank + 1) % size;
+    int left_rank; // = (my_rank + size - 1) % size;
+    int right_rank; //= (my_rank + 1) % size;
 
     // Loop over the number of processes
     //     send to right, receive from left
@@ -25,16 +25,15 @@ int main(int argc, char** argv) {
     //     update the local sum
     
     for (int i = 0; i < size; i++){
-	/*
 	if (i == 0){
-		left_rank = size;
+		left_rank = size - 1;
 		right_rank = i + 1;
 	
 		MPI_Recv(&recv_rank, 1, MPI_INTEGER, left_rank, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         	MPI_Send(&send_rank, 1, MPI_INTEGER, right_rank, 100, MPI_COMM_WORLD);
 	        my_sum += recv_rank;
 	}
-	else if (i == size){
+	else if (i == size - 1){
 		left_rank = i - 1;
 		right_rank = 0;
 	
@@ -50,11 +49,12 @@ int main(int argc, char** argv) {
 	        MPI_Send(&send_rank, 1, MPI_INTEGER, right_rank, 100, MPI_COMM_WORLD);
         	my_sum += recv_rank;
 	}
-	*/
+	 /*
          MPI_Send(&send_rank, 1, MPI_INT, right_rank, 100, MPI_COMM_WORLD);
 	 MPI_Recv(&recv_rank, 1, MPI_INT, left_rank, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 	 send_rank = recv_rank;
          my_sum += recv_rank;
+	 */
     }
 
     printf("I am processor %d out of %d, and the sum is %d\n", my_rank, size, my_sum);
