@@ -3,7 +3,8 @@
 2. hadoop fs -mkdir DonaldTrump
    hadoop fs -put trump_tweets_0?.csv
 
-3. The mapper.py output a file (map.txt) with 538568 lines. After the output file was input in reducer.py, it output a file (red.txt) with 47148 lines. 491420 lines/entries were treated.
+3. The number of operations depends on the number of input lines. In my case it is 35370. The mapper.py output a file (map.txt) with 538568 lines. After the output file was input in reducer.py, it output a file (red.txt) with 47148 lines. 538568 lines/entries were treated (as many lines as in the input of reducer.py).
 
 4. In the Hadoop file system the directory output was created. It contained the file _SUCCESS which was empty and the file part-00000, which was the output of the map&reduce operations (same content as red.txt).
  
+5. Yes. With hadoop fs -text output/part-00000 I can view the output file. I copied it to my git repo with  hadoop fs -get output/part-00000. It is called part-00000
