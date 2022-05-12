@@ -1,0 +1,9 @@
+1. see script.sh
+
+2. hadoop fs -mkdir DonaldTrump
+   hadoop fs -put trump_tweets_0?.csv
+
+3. The mapper.py output a file (map.txt) with 538568 lines. After the output file was input in reducer.py, it output a file (red.txt) with 47148 lines. 491420 lines/entries were treated.
+
+4. In the Hadoop file system the directory output was created. It contained the file _SUCCESS which was empty and the file part-00000, which was the output of the map&reduce operations (same content as red.txt).
+ 
