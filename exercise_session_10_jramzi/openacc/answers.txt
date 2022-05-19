@@ -1,0 +1,1 @@
+No, the times of each iteration are not the same. The first one is significantly slower than the rest, because the communication with the GPU needs to be established first. Once it is loades, the run time is much faster.
