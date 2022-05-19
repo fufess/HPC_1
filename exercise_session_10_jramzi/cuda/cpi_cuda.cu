@@ -4,6 +4,8 @@
 extern "C" double getTime(void);
 
 #define NBIN 1000000000  // Number of bins
+
+//play with these two numbers for the exercise
 #define NUM_BLOCK  (2*56)  // Number of thread blocks
 #define NUM_THREAD  (2*8)  // Number of threads per block
 
