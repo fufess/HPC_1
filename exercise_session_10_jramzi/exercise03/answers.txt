@@ -1,2 +1,3 @@
-The file i compiled is cpi_test.cu. The output is in cpi_test_output.out.
+I used the run_script file to run the executable. The file i compiled is cpi_test.cu. The output is in cpi_test_output.out.
 
+The producht of num_block * num_thread always gives almost the same run time. In total the number of processes the GPU is running simultaniously stays the same so it also makes sense that the run time stays the same. When you double the blocks, the run time cuts in half, when you double the threads the run time also cuts in half.
