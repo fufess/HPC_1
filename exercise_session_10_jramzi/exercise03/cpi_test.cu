@@ -20,8 +20,19 @@ __global__ void cal_pi(double *sum, int nbin, double step, int nthreads, int nbl
 
 // Main routine that executes on the host
 int main(int argc, char **argv) {
-	int num_block = *argv[0];
-	int num_thread = *argv[argc - 1];
+
+	int c;
+	int num_block;
+	int num_thread;
+	//printf("initial argc = %d\n", argc);
+	while(argc--){
+		c = argc;
+
+		//printf("c = %d\n", argc);
+		printf("%d\n", atoi(*argv++));
+		if (c == 2) num_block = atoi(*argv); 
+		if (c == 1) num_thread = atoi(*argv);
+	}
 
 	dim3 dimGrid(num_block,1,1);  // Grid dimensions
 	dim3 dimBlock(num_thread,1,1);  // Block dimensions
@@ -35,6 +46,8 @@ int main(int argc, char **argv) {
 	cudaMalloc((void **) &sumDev, size);  // Allocate array on device
    	double start = getTime();
 
+	//printf("INITIAL PRINT 1= %s and 2 = %s\n", argv,argv-1 );
+
 	// Initialize array in device to 0
 	cudaMemset(sumDev, 0, size);
 	// Do calculation on device
@@ -47,7 +60,7 @@ int main(int argc, char **argv) {
 
 	// Print results
 	double delta = getTime() - start;
-	printf("PI = %.16g computed in %.4g seconds with NUM_BLOCK = %.4g and NUM_THREAD = %.4g\n", pi, delta, num_block, num_thread);
+	printf("PI = %.16g computed in %.4g seconds with NUM_BLOCK = %d and NUM_THREAD = %d\n", pi, delta, num_block, num_thread);
 	// Cleanup
 	free(sumHost);
 	cudaFree(sumDev);

@@ -1,0 +1,2 @@
+The file i compiled is cpi_test.cu. The output is in cpi_test_output.out.
+

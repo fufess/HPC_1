@@ -1,0 +1,501 @@
+60
+16
+0
+60
+16
+PI = 3.141592653589794 computed in 0.1534 seconds with NUM_BLOCK = 60 and NUM_THREAD = 16
+60
+32
+0
+60
+32
+PI = 3.141592653589793 computed in 0.07144 seconds with NUM_BLOCK = 60 and NUM_THREAD = 32
+60
+48
+0
+60
+48
+PI = 3.141592653589794 computed in 0.04892 seconds with NUM_BLOCK = 60 and NUM_THREAD = 48
+60
+64
+0
+60
+64
+PI = 3.141592653589792 computed in 0.03706 seconds with NUM_BLOCK = 60 and NUM_THREAD = 64
+60
+80
+0
+60
+80
+PI = 3.141592653589793 computed in 0.0299 seconds with NUM_BLOCK = 60 and NUM_THREAD = 80
+60
+96
+0
+60
+96
+PI = 3.141592653589796 computed in 0.02494 seconds with NUM_BLOCK = 60 and NUM_THREAD = 96
+60
+112
+0
+60
+112
+PI = 3.141592653589795 computed in 0.02201 seconds with NUM_BLOCK = 60 and NUM_THREAD = 112
+60
+128
+0
+60
+128
+PI = 3.1415926535898 computed in 0.01946 seconds with NUM_BLOCK = 60 and NUM_THREAD = 128
+60
+144
+0
+60
+144
+PI = 3.141592653589793 computed in 0.01785 seconds with NUM_BLOCK = 60 and NUM_THREAD = 144
+60
+160
+0
+60
+160
+PI = 3.141592653589789 computed in 0.01609 seconds with NUM_BLOCK = 60 and NUM_THREAD = 160
+120
+16
+0
+120
+16
+PI = 3.141592653589793 computed in 0.07333 seconds with NUM_BLOCK = 120 and NUM_THREAD = 16
+120
+32
+0
+120
+32
+PI = 3.141592653589792 computed in 0.03707 seconds with NUM_BLOCK = 120 and NUM_THREAD = 32
+120
+48
+0
+120
+48
+PI = 3.141592653589796 computed in 0.02499 seconds with NUM_BLOCK = 120 and NUM_THREAD = 48
+120
+64
+0
+120
+64
+PI = 3.1415926535898 computed in 0.01878 seconds with NUM_BLOCK = 120 and NUM_THREAD = 64
+120
+80
+0
+120
+80
+PI = 3.141592653589789 computed in 0.01607 seconds with NUM_BLOCK = 120 and NUM_THREAD = 80
+120
+96
+0
+120
+96
+PI = 3.141592653589788 computed in 0.01357 seconds with NUM_BLOCK = 120 and NUM_THREAD = 96
+120
+112
+0
+120
+112
+PI = 3.141592653589794 computed in 0.01202 seconds with NUM_BLOCK = 120 and NUM_THREAD = 112
+120
+128
+0
+120
+128
+PI = 3.141592653589795 computed in 0.01056 seconds with NUM_BLOCK = 120 and NUM_THREAD = 128
+120
+144
+0
+120
+144
+PI = 3.141592653589794 computed in 0.01326 seconds with NUM_BLOCK = 120 and NUM_THREAD = 144
+120
+160
+0
+120
+160
+PI = 3.141592653589796 computed in 0.01197 seconds with NUM_BLOCK = 120 and NUM_THREAD = 160
+180
+16
+0
+180
+16
+PI = 3.141592653589794 computed in 0.04937 seconds with NUM_BLOCK = 180 and NUM_THREAD = 16
+180
+32
+0
+180
+32
+PI = 3.141592653589796 computed in 0.02453 seconds with NUM_BLOCK = 180 and NUM_THREAD = 32
+180
+48
+0
+180
+48
+PI = 3.141592653589793 computed in 0.01713 seconds with NUM_BLOCK = 180 and NUM_THREAD = 48
+180
+64
+0
+180
+64
+PI = 3.141592653589788 computed in 0.0129 seconds with NUM_BLOCK = 180 and NUM_THREAD = 64
+180
+80
+0
+180
+80
+PI = 3.141592653589795 computed in 0.01133 seconds with NUM_BLOCK = 180 and NUM_THREAD = 80
+180
+96
+0
+180
+96
+PI = 3.141592653589794 computed in 0.009396 seconds with NUM_BLOCK = 180 and NUM_THREAD = 96
+180
+112
+0
+180
+112
+PI = 3.141592653589796 computed in 0.01156 seconds with NUM_BLOCK = 180 and NUM_THREAD = 112
+180
+128
+0
+180
+128
+PI = 3.141592653589796 computed in 0.01006 seconds with NUM_BLOCK = 180 and NUM_THREAD = 128
+180
+144
+0
+180
+144
+PI = 3.141592653589803 computed in 0.01143 seconds with NUM_BLOCK = 180 and NUM_THREAD = 144
+180
+160
+0
+180
+160
+PI = 3.141592653589794 computed in 0.01037 seconds with NUM_BLOCK = 180 and NUM_THREAD = 160
+240
+16
+0
+240
+16
+PI = 3.141592653589792 computed in 0.03765 seconds with NUM_BLOCK = 240 and NUM_THREAD = 16
+240
+32
+0
+240
+32
+PI = 3.1415926535898 computed in 0.02081 seconds with NUM_BLOCK = 240 and NUM_THREAD = 32
+240
+48
+0
+240
+48
+PI = 3.141592653589788 computed in 0.01486 seconds with NUM_BLOCK = 240 and NUM_THREAD = 48
+240
+64
+0
+240
+64
+PI = 3.141592653589795 computed in 0.01123 seconds with NUM_BLOCK = 240 and NUM_THREAD = 64
+240
+80
+0
+240
+80
+PI = 3.141592653589796 computed in 0.01328 seconds with NUM_BLOCK = 240 and NUM_THREAD = 80
+240
+96
+0
+240
+96
+PI = 3.141592653589796 computed in 0.01115 seconds with NUM_BLOCK = 240 and NUM_THREAD = 96
+240
+112
+0
+240
+112
+PI = 3.141592653589791 computed in 0.01219 seconds with NUM_BLOCK = 240 and NUM_THREAD = 112
+240
+128
+0
+240
+128
+PI = 3.141592653589798 computed in 0.01098 seconds with NUM_BLOCK = 240 and NUM_THREAD = 128
+240
+144
+0
+240
+144
+PI = 3.141592653589796 computed in 0.01236 seconds with NUM_BLOCK = 240 and NUM_THREAD = 144
+240
+160
+0
+240
+160
+PI = 3.141592653589797 computed in 0.01146 seconds with NUM_BLOCK = 240 and NUM_THREAD = 160
+300
+16
+0
+300
+16
+PI = 3.141592653589793 computed in 0.0334 seconds with NUM_BLOCK = 300 and NUM_THREAD = 16
+300
+32
+0
+300
+32
+PI = 3.141592653589789 computed in 0.01722 seconds with NUM_BLOCK = 300 and NUM_THREAD = 32
+300
+48
+0
+300
+48
+PI = 3.141592653589795 computed in 0.01241 seconds with NUM_BLOCK = 300 and NUM_THREAD = 48
+300
+64
+0
+300
+64
+PI = 3.141592653589796 computed in 0.009394 seconds with NUM_BLOCK = 300 and NUM_THREAD = 64
+300
+80
+0
+300
+80
+PI = 3.141592653589791 computed in 0.01243 seconds with NUM_BLOCK = 300 and NUM_THREAD = 80
+300
+96
+0
+300
+96
+PI = 3.141592653589794 computed in 0.0102 seconds with NUM_BLOCK = 300 and NUM_THREAD = 96
+300
+112
+0
+300
+112
+PI = 3.141592653589792 computed in 0.01177 seconds with NUM_BLOCK = 300 and NUM_THREAD = 112
+300
+128
+0
+300
+128
+PI = 3.141592653589797 computed in 0.01039 seconds with NUM_BLOCK = 300 and NUM_THREAD = 128
+300
+144
+0
+300
+144
+PI = 3.141592653589798 computed in 0.01177 seconds with NUM_BLOCK = 300 and NUM_THREAD = 144
+300
+160
+0
+300
+160
+PI = 3.141592653589788 computed in 0.01042 seconds with NUM_BLOCK = 300 and NUM_THREAD = 160
+360
+16
+0
+360
+16
+PI = 3.141592653589796 computed in 0.02841 seconds with NUM_BLOCK = 360 and NUM_THREAD = 16
+360
+32
+0
+360
+32
+PI = 3.141592653589788 computed in 0.01434 seconds with NUM_BLOCK = 360 and NUM_THREAD = 32
+360
+48
+0
+360
+48
+PI = 3.141592653589794 computed in 0.01335 seconds with NUM_BLOCK = 360 and NUM_THREAD = 48
+360
+64
+0
+360
+64
+PI = 3.141592653589796 computed in 0.009863 seconds with NUM_BLOCK = 360 and NUM_THREAD = 64
+360
+80
+0
+360
+80
+PI = 3.141592653589794 computed in 0.01241 seconds with NUM_BLOCK = 360 and NUM_THREAD = 80
+360
+96
+0
+360
+96
+PI = 3.141592653589796 computed in 0.01047 seconds with NUM_BLOCK = 360 and NUM_THREAD = 96
+360
+112
+0
+360
+112
+PI = 3.141592653589794 computed in 0.01173 seconds with NUM_BLOCK = 360 and NUM_THREAD = 112
+360
+128
+0
+360
+128
+PI = 3.141592653589793 computed in 0.01013 seconds with NUM_BLOCK = 360 and NUM_THREAD = 128
+360
+144
+srun: Job 38616359 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 38616359
+0
+360
+144
+PI = 3.141592653589798 computed in 0.0118 seconds with NUM_BLOCK = 360 and NUM_THREAD = 144
+360
+160
+0
+360
+160
+PI = 3.141592653589796 computed in 0.01046 seconds with NUM_BLOCK = 360 and NUM_THREAD = 160
+420
+16
+srun: Job 38616359 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 38616359
+0
+420
+16
+PI = 3.141592653589795 computed in 0.02511 seconds with NUM_BLOCK = 420 and NUM_THREAD = 16
+420
+32
+0
+420
+32
+PI = 3.141592653589794 computed in 0.01268 seconds with NUM_BLOCK = 420 and NUM_THREAD = 32
+420
+48
+0
+420
+48
+PI = 3.141592653589796 computed in 0.01272 seconds with NUM_BLOCK = 420 and NUM_THREAD = 48
+420
+64
+0
+420
+64
+PI = 3.141592653589791 computed in 0.009645 seconds with NUM_BLOCK = 420 and NUM_THREAD = 64
+420
+80
+0
+420
+80
+PI = 3.141592653589792 computed in 0.01171 seconds with NUM_BLOCK = 420 and NUM_THREAD = 80
+420
+96
+0
+420
+96
+PI = 3.141592653589794 computed in 0.01022 seconds with NUM_BLOCK = 420 and NUM_THREAD = 96
+420
+112
+0
+420
+112
+PI = 3.141592653589751 computed in 0.01129 seconds with NUM_BLOCK = 420 and NUM_THREAD = 112
+420
+128
+0
+420
+128
+PI = 3.14159265358979 computed in 0.009964 seconds with NUM_BLOCK = 420 and NUM_THREAD = 128
+420
+144
+0
+420
+144
+PI = 3.141592653589798 computed in 0.01133 seconds with NUM_BLOCK = 420 and NUM_THREAD = 144
+420
+160
+0
+420
+160
+PI = 3.141592653589807 computed in 0.01007 seconds with NUM_BLOCK = 420 and NUM_THREAD = 160
+600
+16
+0
+600
+16
+PI = 3.141592653589789 computed in 0.01856 seconds with NUM_BLOCK = 600 and NUM_THREAD = 16
+600
+32
+0
+600
+32
+PI = 3.141592653589796 computed in 0.009449 seconds with NUM_BLOCK = 600 and NUM_THREAD = 32
+600
+48
+0
+600
+48
+PI = 3.141592653589794 computed in 0.01274 seconds with NUM_BLOCK = 600 and NUM_THREAD = 48
+600
+64
+0
+600
+64
+PI = 3.141592653589797 computed in 0.009466 seconds with NUM_BLOCK = 600 and NUM_THREAD = 64
+600
+80
+0
+600
+80
+PI = 3.141592653589788 computed in 0.01172 seconds with NUM_BLOCK = 600 and NUM_THREAD = 80
+600
+96
+0
+600
+96
+PI = 3.141592653589796 computed in 0.009899 seconds with NUM_BLOCK = 600 and NUM_THREAD = 96
+600
+112
+0
+600
+112
+PI = 3.141592653589807 computed in 0.01128 seconds with NUM_BLOCK = 600 and NUM_THREAD = 112
+600
+128
+0
+600
+128
+PI = 3.141592653589801 computed in 0.009825 seconds with NUM_BLOCK = 600 and NUM_THREAD = 128
+600
+144
+0
+600
+144
+PI = 3.1415926535898 computed in 0.01102 seconds with NUM_BLOCK = 600 and NUM_THREAD = 144
+600
+160
+0
+600
+160
+PI = 3.141592653589786 computed in 0.01006 seconds with NUM_BLOCK = 600 and NUM_THREAD = 160
+
+
+Batch Job Summary Report (version 21.01.1) for Job "run_script" (38616359) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-05-19T22:51:58 2022-05-19T22:51:58 2022-05-19T22:52:00 2022-05-19T22:53:57   00:01:57   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+      jramzi         uzg2        debug        1     11.057 kJ
+
