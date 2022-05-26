@@ -1,0 +1,201 @@
+1
+dispersion 1D test of length n = 6 : 4.57764e-05MB
+item 2 differs (expected, found): 0.609375 != 0
+==== failure ====
+Host version took 4.05312e-06 s (2.02656e-06 s/step)
+GPU version took 0.000366926 s (0.000183463 s/step)
+2
+dispersion 1D test of length n = 8 : 6.10352e-05MB
+item 2 differs (expected, found): 0.449219 != 0
+==== failure ====
+Host version took 4.05312e-06 s (2.02656e-06 s/step)
+GPU version took 0.000359058 s (0.000179529 s/step)
+3
+dispersion 1D test of length n = 12 : 9.15527e-05MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 5.00679e-06 s (2.5034e-06 s/step)
+GPU version took 0.00040102 s (0.00020051 s/step)
+4
+dispersion 1D test of length n = 20 : 0.000152588MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 3.8147e-06 s (1.90735e-06 s/step)
+GPU version took 0.000391006 s (0.000195503 s/step)
+5
+dispersion 1D test of length n = 36 : 0.000274658MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 5.00679e-06 s (2.5034e-06 s/step)
+GPU version took 0.000394821 s (0.000197411 s/step)
+6
+dispersion 1D test of length n = 68 : 0.000518799MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 5.96046e-06 s (2.98023e-06 s/step)
+GPU version took 0.000393867 s (0.000196934 s/step)
+7
+dispersion 1D test of length n = 132 : 0.00100708MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 7.86781e-06 s (3.93391e-06 s/step)
+GPU version took 0.000388145 s (0.000194073 s/step)
+8
+dispersion 1D test of length n = 260 : 0.00198364MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 1.97887e-05 s (9.89437e-06 s/step)
+GPU version took 0.000385046 s (0.000192523 s/step)
+9
+dispersion 1D test of length n = 516 : 0.00393677MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 2.38419e-05 s (1.19209e-05 s/step)
+GPU version took 0.00041914 s (0.00020957 s/step)
+10
+dispersion 1D test of length n = 1028 : 0.00784302MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 2.69413e-05 s (1.34706e-05 s/step)
+GPU version took 0.00041008 s (0.00020504 s/step)
+11
+dispersion 1D test of length n = 2052 : 0.0156555MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 3.69549e-05 s (1.84774e-05 s/step)
+GPU version took 0.000411034 s (0.000205517 s/step)
+12
+dispersion 1D test of length n = 4100 : 0.0312805MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 4.60148e-05 s (2.30074e-05 s/step)
+GPU version took 0.000411987 s (0.000205994 s/step)
+13
+dispersion 1D test of length n = 8196 : 0.0625305MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 7.20024e-05 s (3.60012e-05 s/step)
+GPU version took 0.00039506 s (0.00019753 s/step)
+14
+dispersion 1D test of length n = 16388 : 0.125031MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00012207 s (6.10352e-05 s/step)
+GPU version took 0.000424862 s (0.000212431 s/step)
+15
+dispersion 1D test of length n = 32772 : 0.250031MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.000266075 s (0.000133038 s/step)
+GPU version took 0.000524998 s (0.000262499 s/step)
+16
+dispersion 1D test of length n = 65540 : 0.500031MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00049305 s (0.000246525 s/step)
+GPU version took 0.00059104 s (0.00029552 s/step)
+17
+dispersion 1D test of length n = 131076 : 1.00003MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00102806 s (0.00051403 s/step)
+GPU version took 0.000808954 s (0.000404477 s/step)
+18
+dispersion 1D test of length n = 262148 : 2.00003MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00187683 s (0.000938416 s/step)
+GPU version took 0.00162697 s (0.000813484 s/step)
+19
+dispersion 1D test of length n = 524292 : 4.00003MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00391197 s (0.00195599 s/step)
+GPU version took 0.00245619 s (0.00122809 s/step)
+20
+dispersion 1D test of length n = 1048580 : 8.00003MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.00754905 s (0.00377452 s/step)
+GPU version took 0.00415301 s (0.00207651 s/step)
+21
+dispersion 1D test of length n = 2097156 : 16MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.0165801 s (0.00829005 s/step)
+GPU version took 0.00739193 s (0.00369596 s/step)
+22
+dispersion 1D test of length n = 4194308 : 32MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.036727 s (0.0183635 s/step)
+GPU version took 0.013411 s (0.00670552 s/step)
+23
+dispersion 1D test of length n = 8388612 : 64MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.0741031 s (0.0370516 s/step)
+GPU version took 0.0254569 s (0.0127285 s/step)
+24
+dispersion 1D test of length n = 16777220 : 128MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.151747 s (0.0758735 s/step)
+GPU version took 0.0499759 s (0.0249879 s/step)
+25
+dispersion 1D test of length n = 33554436 : 256MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.494613 s (0.247307 s/step)
+GPU version took 0.10046 s (0.0502299 s/step)
+26
+dispersion 1D test of length n = 67108868 : 512MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 0.854705 s (0.427352 s/step)
+GPU version took 0.542482 s (0.271241 s/step)
+27
+dispersion 1D test of length n = 134217732 : 1024MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 1.6888 s (0.844402 s/step)
+GPU version took 1.0815 s (0.540748 s/step)
+28
+dispersion 1D test of length n = 268435460 : 2048MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 3.40179 s (1.70089 s/step)
+GPU version took 2.16693 s (1.08347 s/step)
+29
+dispersion 1D test of length n = 536870916 : 4096MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 6.72142 s (3.36071 s/step)
+GPU version took 4.3196 s (2.1598 s/step)
+
+
+Batch Job Summary Report (version 21.01.1) for Job "run_script" (38755039) on daint
+
+Job information (1/3)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-05-26T21:45:10 2022-05-26T21:45:10 2022-05-26T21:45:11 2022-05-26T21:46:55   00:01:44   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/3)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+      jramzi         uzg2        debug        1     10.364 kJ
+
+Job information (3/3) - GPU utilization data
+----------------------------------------------------
+   Node name       Usage      Max mem Execution time
+------------ ----------- ------------ --------------
+    nid02359         5 %      622 MiB       00:00:02
+    nid02359         4 %      878 MiB       00:00:03
+    nid02359         6 %     1390 MiB       00:00:06
+    nid02359         6 %     2414 MiB       00:00:11
+    nid02359         6 %     4462 MiB       00:00:23
+

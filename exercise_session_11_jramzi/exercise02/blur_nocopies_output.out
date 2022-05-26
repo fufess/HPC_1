@@ -1,0 +1,145 @@
+1
+dispersion 1D test of length n = 6 : 4.57764e-05MB
+==== success ====
+Host version took 4.05312e-06 s (2.02656e-06 s/step)
+GPU version took 1.50204e-05 s (7.51019e-06 s/step)
+2
+dispersion 1D test of length n = 8 : 6.10352e-05MB
+==== success ====
+Host version took 4.05312e-06 s (2.02656e-06 s/step)
+GPU version took 1.5974e-05 s (7.98702e-06 s/step)
+3
+dispersion 1D test of length n = 12 : 9.15527e-05MB
+==== success ====
+Host version took 5.00679e-06 s (2.5034e-06 s/step)
+GPU version took 1.69277e-05 s (8.46386e-06 s/step)
+4
+dispersion 1D test of length n = 20 : 0.000152588MB
+==== success ====
+Host version took 5.00679e-06 s (2.5034e-06 s/step)
+GPU version took 1.5974e-05 s (7.98702e-06 s/step)
+5
+dispersion 1D test of length n = 36 : 0.000274658MB
+==== success ====
+Host version took 7.15256e-06 s (3.57628e-06 s/step)
+GPU version took 1.4782e-05 s (7.39098e-06 s/step)
+6
+dispersion 1D test of length n = 68 : 0.000518799MB
+==== success ====
+Host version took 9.05991e-06 s (4.52995e-06 s/step)
+GPU version took 1.50204e-05 s (7.51019e-06 s/step)
+7
+dispersion 1D test of length n = 132 : 0.00100708MB
+==== success ====
+Host version took 6.91414e-06 s (3.45707e-06 s/step)
+GPU version took 1.5974e-05 s (7.98702e-06 s/step)
+8
+dispersion 1D test of length n = 260 : 0.00198364MB
+==== success ====
+Host version took 1.09673e-05 s (5.48363e-06 s/step)
+GPU version took 1.81198e-05 s (9.05991e-06 s/step)
+9
+dispersion 1D test of length n = 516 : 0.00393677MB
+==== success ====
+Host version took 2.40803e-05 s (1.20401e-05 s/step)
+GPU version took 7.86781e-06 s (3.93391e-06 s/step)
+10
+dispersion 1D test of length n = 1028 : 0.00784302MB
+==== success ====
+Host version took 2.7895e-05 s (1.39475e-05 s/step)
+GPU version took 1.00136e-05 s (5.00679e-06 s/step)
+11
+dispersion 1D test of length n = 2052 : 0.0156555MB
+==== success ====
+Host version took 3.40939e-05 s (1.70469e-05 s/step)
+GPU version took 1.50204e-05 s (7.51019e-06 s/step)
+12
+dispersion 1D test of length n = 4100 : 0.0312805MB
+==== success ====
+Host version took 5.00679e-05 s (2.5034e-05 s/step)
+GPU version took 2.5034e-05 s (1.2517e-05 s/step)
+13
+dispersion 1D test of length n = 8196 : 0.0625305MB
+==== success ====
+Host version took 7.31945e-05 s (3.65973e-05 s/step)
+GPU version took 4.48227e-05 s (2.24113e-05 s/step)
+14
+dispersion 1D test of length n = 16388 : 0.125031MB
+==== success ====
+Host version took 0.000123978 s (6.19888e-05 s/step)
+GPU version took 9.10759e-05 s (4.55379e-05 s/step)
+15
+dispersion 1D test of length n = 32772 : 0.250031MB
+==== success ====
+Host version took 0.000264883 s (0.000132442 s/step)
+GPU version took 0.000257969 s (0.000128984 s/step)
+16
+dispersion 1D test of length n = 65540 : 0.500031MB
+==== success ====
+Host version took 0.000483036 s (0.000241518 s/step)
+GPU version took 0.000501156 s (0.000250578 s/step)
+17
+dispersion 1D test of length n = 131076 : 1.00003MB
+==== success ====
+Host version took 0.00100923 s (0.000504613 s/step)
+GPU version took 0.000988007 s (0.000494003 s/step)
+18
+dispersion 1D test of length n = 262148 : 2.00003MB
+==== success ====
+Host version took 0.00190687 s (0.000953436 s/step)
+GPU version took 0.00215101 s (0.00107551 s/step)
+19
+dispersion 1D test of length n = 524292 : 4.00003MB
+==== success ====
+Host version took 0.00385785 s (0.00192893 s/step)
+GPU version took 0.00398707 s (0.00199354 s/step)
+20
+dispersion 1D test of length n = 1048580 : 8.00003MB
+==== success ====
+Host version took 0.00746012 s (0.00373006 s/step)
+GPU version took 0.00784993 s (0.00392497 s/step)
+21
+dispersion 1D test of length n = 2097156 : 16MB
+==== success ====
+Host version took 0.0168409 s (0.00842047 s/step)
+GPU version took 0.0165651 s (0.00828254 s/step)
+22
+dispersion 1D test of length n = 4194308 : 32MB
+==== success ====
+Host version took 0.036309 s (0.0181545 s/step)
+GPU version took 0.0349422 s (0.0174711 s/step)
+23
+dispersion 1D test of length n = 8388612 : 64MB
+==== success ====
+Host version took 0.0735021 s (0.036751 s/step)
+GPU version took 0.0696039 s (0.034802 s/step)
+24
+dispersion 1D test of length n = 16777220 : 128MB
+==== success ====
+Host version took 0.153438 s (0.076719 s/step)
+GPU version took 0.142623 s (0.0713115 s/step)
+25
+dispersion 1D test of length n = 33554436 : 256MB
+==== success ====
+Host version took 0.498937 s (0.249468 s/step)
+GPU version took 0.29537 s (0.147685 s/step)
+26
+dispersion 1D test of length n = 67108868 : 512MB
+==== success ====
+Host version took 0.847246 s (0.423623 s/step)
+GPU version took 0.965645 s (0.482823 s/step)
+27
+dispersion 1D test of length n = 134217732 : 1024MB
+==== success ====
+Host version took 1.67814 s (0.839069 s/step)
+GPU version took 1.9095 s (0.954748 s/step)
+28
+dispersion 1D test of length n = 268435460 : 2048MB
+==== success ====
+Host version took 3.36452 s (1.68226 s/step)
+GPU version took 3.84534 s (1.92267 s/step)
+29
+dispersion 1D test of length n = 536870916 : 4096MB
+==== success ====
+Host version took 6.74484 s (3.37242 s/step)
+GPU version took 7.67191 s (3.83596 s/step)

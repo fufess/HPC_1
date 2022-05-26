@@ -8,8 +8,6 @@
 
 #ifdef _OPENACC
     // TODO: declare routine accordingly so as to be called from the GPU
-    #pragma acc routine seq
-    void blur_twice_gpu_nocopies(double *in , double *out , int n, int nsteps);
 #endif
 double blur(int pos, const double *u)
 {
@@ -70,6 +68,8 @@ void blur_twice_gpu_naive(double *in , double *out , int n, int nsteps)
     free(buffer);
 }
 
+#ifdef OPENACC
+#pragma acc routine seq
 void blur_twice_gpu_nocopies(double *in , double *out , int n, int nsteps)
 {
     double *buffer = malloc_host<double>(n);
@@ -88,7 +88,7 @@ void blur_twice_gpu_nocopies(double *in , double *out , int n, int nsteps)
             }
 
             // TODO: offload this loop to the GPU; can you try just the pointer assignment?
-	    for (auto i = 0; i < n; ++i) {
+            for (auto i = 0; i < n; ++i) {
                 in[i] = out[i];
             }
         }
@@ -96,6 +96,7 @@ void blur_twice_gpu_nocopies(double *in , double *out , int n, int nsteps)
 
     free(buffer);
 }
+#endif
 
 int main(int argc, char** argv) {
     size_t pow    = read_arg(argc, argv, 1, 20);
@@ -127,7 +128,7 @@ int main(int argc, char** argv) {
     auto time_host = get_time() - tstart_host;
 
     auto tstart = get_time();
-    blur_twice_gpu_nocopies(x0, x1, n, nsteps);
+    blur_twice_gpu_naive(x0, x1, n, nsteps);
     auto time = get_time() - tstart;
 
     auto validate = true;
