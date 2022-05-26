@@ -1,1 +1,1 @@
-The larger N becomes, the smaller the difference between the CPU and the GPU execution time. When N was small the CPU was much faster than the GPU. 
+When N was small the CPU was much faster than the GPU. With the possible input for N, which is N < 30, the GPU will never be faster than the CPU. The bottle neck is the transfer of data from CPU to GPU, which is a slow process and slows down the speed of the GPU.

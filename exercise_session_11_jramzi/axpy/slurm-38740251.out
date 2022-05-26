@@ -1,0 +1,286 @@
+1
+memcopy and daxpy test of size 2
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000254869 s
+
+============ PASSED
+2
+memcopy and daxpy test of size 4
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000255108 s
+
+============ PASSED
+3
+memcopy and daxpy test of size 8
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000252008 s
+
+============ PASSED
+4
+memcopy and daxpy test of size 16
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000251055 s
+
+============ PASSED
+5
+memcopy and daxpy test of size 32
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000277996 s
+
+============ PASSED
+6
+memcopy and daxpy test of size 64
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000255108 s
+
+============ PASSED
+7
+memcopy and daxpy test of size 128
+-------
+timings
+-------
+axpy (openmp): 9.53674e-07 s
+axpy (openacc): 0.000280142 s
+
+============ PASSED
+8
+memcopy and daxpy test of size 256
+-------
+timings
+-------
+axpy (openmp): 1.19209e-06 s
+axpy (openacc): 0.000256777 s
+
+============ PASSED
+9
+memcopy and daxpy test of size 512
+-------
+timings
+-------
+axpy (openmp): 0 s
+axpy (openacc): 0.000257969 s
+
+============ PASSED
+10
+memcopy and daxpy test of size 1024
+-------
+timings
+-------
+axpy (openmp): 9.53674e-07 s
+axpy (openacc): 0.000304937 s
+
+============ PASSED
+11
+memcopy and daxpy test of size 2048
+-------
+timings
+-------
+axpy (openmp): 1.19209e-06 s
+axpy (openacc): 0.00026989 s
+
+============ PASSED
+12
+memcopy and daxpy test of size 4096
+-------
+timings
+-------
+axpy (openmp): 3.09944e-06 s
+axpy (openacc): 0.000264883 s
+
+============ PASSED
+13
+memcopy and daxpy test of size 8192
+-------
+timings
+-------
+axpy (openmp): 5.96046e-06 s
+axpy (openacc): 0.000268936 s
+
+============ PASSED
+14
+memcopy and daxpy test of size 16384
+-------
+timings
+-------
+axpy (openmp): 1.21593e-05 s
+axpy (openacc): 0.000283957 s
+
+============ PASSED
+15
+memcopy and daxpy test of size 32768
+-------
+timings
+-------
+axpy (openmp): 5.79357e-05 s
+axpy (openacc): 0.000315905 s
+
+============ PASSED
+16
+memcopy and daxpy test of size 65536
+-------
+timings
+-------
+axpy (openmp): 8.58307e-05 s
+axpy (openacc): 0.000372171 s
+
+============ PASSED
+17
+memcopy and daxpy test of size 131072
+-------
+timings
+-------
+axpy (openmp): 0.00019002 s
+axpy (openacc): 0.000775099 s
+
+============ PASSED
+18
+memcopy and daxpy test of size 262144
+-------
+timings
+-------
+axpy (openmp): 0.000378847 s
+axpy (openacc): 0.00113606 s
+
+============ PASSED
+19
+memcopy and daxpy test of size 524288
+-------
+timings
+-------
+axpy (openmp): 0.000710011 s
+axpy (openacc): 0.00171089 s
+
+============ PASSED
+20
+memcopy and daxpy test of size 1048576
+-------
+timings
+-------
+axpy (openmp): 0.00146008 s
+axpy (openacc): 0.00281906 s
+
+============ PASSED
+21
+memcopy and daxpy test of size 2097152
+-------
+timings
+-------
+axpy (openmp): 0.0029459 s
+axpy (openacc): 0.00485706 s
+
+============ PASSED
+22
+memcopy and daxpy test of size 4194304
+-------
+timings
+-------
+axpy (openmp): 0.00589204 s
+axpy (openacc): 0.00890088 s
+
+============ PASSED
+23
+memcopy and daxpy test of size 8388608
+-------
+timings
+-------
+axpy (openmp): 0.0121272 s
+axpy (openacc): 0.0170579 s
+
+============ PASSED
+24
+memcopy and daxpy test of size 16777216
+-------
+timings
+-------
+axpy (openmp): 0.0233529 s
+axpy (openacc): 0.0332861 s
+
+============ PASSED
+25
+memcopy and daxpy test of size 33554432
+-------
+timings
+-------
+axpy (openmp): 0.0445819 s
+axpy (openacc): 0.0658479 s
+
+============ PASSED
+26
+memcopy and daxpy test of size 67108864
+-------
+timings
+-------
+axpy (openmp): 0.0960338 s
+axpy (openacc): 0.130887 s
+
+============ PASSED
+27
+memcopy and daxpy test of size 134217728
+-------
+timings
+-------
+axpy (openmp): 0.190193 s
+axpy (openacc): 0.261024 s
+
+============ PASSED
+28
+memcopy and daxpy test of size 268435456
+-------
+timings
+-------
+axpy (openmp): 0.381452 s
+axpy (openacc): 0.521459 s
+
+============ PASSED
+29
+memcopy and daxpy test of size 536870912
+-------
+timings
+-------
+axpy (openmp): 0.708076 s
+axpy (openacc): 1.04176 s
+
+============ PASSED
+
+
+Batch Job Summary Report (version 21.01.1) for Job "run_script" (38740251) on daint
+
+Job information (1/3)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-05-26T02:16:56 2022-05-26T02:16:56 2022-05-26T02:16:58 2022-05-26T02:18:20   00:01:22   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/3)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+      jramzi         uzg2        debug        1      7.642 kJ
+
+Job information (3/3) - GPU utilization data
+----------------------------------------------------
+   Node name       Usage      Max mem Execution time
+------------ ----------- ------------ --------------
+    nid02356         6 %     2412 MiB       00:00:04
+    nid02356         7 %     4460 MiB       00:00:07
+    nid02356         8 %     8556 MiB       00:00:14
+
