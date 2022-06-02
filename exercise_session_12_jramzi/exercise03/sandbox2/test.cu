@@ -67,7 +67,7 @@ int main () {
   
   /* TO DO : complete the number of blocks below */
   int numBlocks = 1;
-  dim3 threadsPerBlock(16, 16);
+  dim3 threadsPerBlock(NX, NY);
  
   /* TO DO : kernel invocation */
   kernadd<<<numBlocks,threadsPerBlock>>>(mat_out, mat_in1, mat_in2, NX, NY);
