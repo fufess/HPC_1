@@ -70,7 +70,7 @@ int main () {
   dim3 threadsPerBlock(NX, NY);
  
   /* TO DO : kernel invocation */
-  kernadd<<<numBlocks,threadsPerBlock>>>(mat_out, mat_in1, mat_in2, NX, NY);
+  kernadd<<<(N+BLOCKSIZE-1)/BLOCKSIZE,BLOCKSIZE>>>(mat_out_gpu, mat_in1_gpu, mat_in2_gpu, NX, NY);
   
   cudaDeviceSynchronize();
   
